@@ -1,0 +1,22 @@
+name, element, resistance, weakness, weakness_alt, ailment, ailment_weakness, location, species, smallest, largest
+
+Anjanath, F, F, [0,3,2,2,1], null, Fireblight, [2,2,2,1,2], [AF,WW], B, 1448.88, 2008.68
+
+
+
+TODO:
+tabela elements
+tabela ailments
+tabela weak points
+tabela locations
+tabela species
+
+
+Weakpoint
+    head
+    sever, blunt, ammo
+    mane
+    claws
+    belly
+    wings
+    tail

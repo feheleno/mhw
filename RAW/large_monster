@@ -1,0 +1,33 @@
+name, elements, resistance, weakness, weakness_alt, ailment, ailment_weakness, Location, Species, Smallest, Largest
+Anjanath, F, F, [0,3,2,2,1], null, Fireblight, [2,2,2,1,2], [AF, WW], B, 1448.88, 2008.68
+Azure Rathalos
+Barroth
+Bazelgeuse
+Black Diablos
+Deviljho
+Diablos
+Dodogama
+Great Girros
+Great Jagras
+Jyuratodus
+Kirin
+Kulu-Ya-Ku
+Kulve Taroth
+Kushala Daora
+Lavasioth
+Legiana
+Nergigante
+Odogaron
+Paolumu
+Pink Rathian
+Pukei-Pukei
+Radobaan
+Rathalos
+Rathian
+Teostra
+Tobi-Kadachi
+Tzitzi-Ya-Ku
+Uragaan
+Vaal Hazak
+Xeno'jiiva
+Zorah Magdaros
