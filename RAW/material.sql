@@ -1,4 +1,10 @@
-INSERT INTO mhw.material (name, rarity)
+CREATE TABLE mhw.material (
+  material_id INT NOT NULL AUTO_INCREMENT,
+  material_name VARCHAR(100) NOT NULL,
+  material_rarity VARCHAR(1) NULL,
+  PRIMARY KEY (material_id));
+
+INSERT INTO mhw.material (material_name, material_rarity)
   VALUES ("Ace Hunter Coin","8"),
   ("Advanced Armor Sphere","6"),
   ("Adamant Seed","2"),

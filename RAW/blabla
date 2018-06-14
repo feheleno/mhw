@@ -5,18 +5,23 @@ Anjanath, F, F, [0,3,2,2,1], null, Fireblight, [2,2,2,1,2], [AF,WW], B, 1448.88,
 
 
 TODO:
-tabela elements
-tabela ailments
 tabela weak points
 tabela locations
 tabela species
 
 
-Weakpoint
-    head
-    sever, blunt, ammo
-    mane
-    claws
-    belly
-    wings
-    tail
+  name,     element, ailment,     species,  smallest, largest
+  Anjanath, F,       Fireblight,  B,        1448.88,  2008.68
+
+  //o resultset pode voltar  um ou dois valores, por exemplo Baroth
+  monster_element_weaknesses
+  monster_name, resistance_name, value
+
+  monster_ailment_weaknesses
+  monster_name, ailment_name, value
+
+  monster_breakable_parts
+  monster_name, body_part_name, sever, blunt, ammo
+
+  monster_location
+  monster_name, location

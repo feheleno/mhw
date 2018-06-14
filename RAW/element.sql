@@ -1,9 +1,9 @@
 CREATE TABLE mhw.element (
-  id VARCHAR(1) NOT NULL,
-  name VARCHAR(10) NOT NULL,
+  element_id VARCHAR(1) NOT NULL,
+  element_name VARCHAR(10) NOT NULL,
   PRIMARY KEY (id));
 
-insert into element (id, name)
+insert into element 
   values ("F","Fire"),
   ("W","Water"),
   ("T","Thunder"),
