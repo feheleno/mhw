@@ -1,7 +1,7 @@
 CREATE TABLE mhw.moster_brekable_part (
   mbp_id INT NOT NULL AUTO_INCREMENT,
   monster_id INT NOT NULL,
-  body_part_id VARCHAR(1) NOT NULL,
+  body_part_id VARCHAR(2) NOT NULL,
   sever_level INT NOT NULL,
   blunt_level INT NOT NULL,
   ammo_level INT NOT NULL,
