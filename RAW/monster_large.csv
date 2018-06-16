@@ -1,3 +1,0 @@
-name, element, resistance, weakness, weakness_alt, ailment, ailment_weakness, location, species, smallest, largest
-
-"Anjanath", "F", "F", [0,3,2,2,1], null, "F", [2,2,2,1,2], [AF,WW], "B", 1448.88, 2008.68

@@ -1,33 +1,73 @@
-name, elements, resistance, weakness, weakness_alt, ailment, ailment_weakness, Location, Species, Smallest, Largest
-Anjanath, F, F, [0,3,2,2,1], null, Fireblight, [2,2,2,1,2], [AF, WW], B, 1448.88, 2008.68
-Azure Rathalos
-Barroth
-Bazelgeuse
+name, elements, weakness, weakness_alt, ailment_weakness, Location, Species, Smallest, Largest,
+
+break{[HEAD],[MANE],[BELLY],[CLAW],[TAIL],[WING]}
+
+Anjanath, F, [0,3,2,2,1], null, [2,2,2,1,2], [AF, WW], B, 1448.88, 2008.68,
+{[3,3,3],[0,0,0],[0,0,0],[1,1,1],[2,2,2],[0,0,0]}
+
+Azure Rathalos, F, [0,1,1,2,3], null, [1,2,2,1,2], [AF, ER], F, 1499.71, 2113.23,
+{[0,0,0],[0,0,0],[1,1,1],[0,0,0],[0,0,0],[0,0,0]}
+
+Barroth, NE, [3,0,0,2,1], [0,3,0,2,1], [ 3,2,3,3,1], [WW], B, 1217.10, 3153.40,
+{[1,1,1],[0,0,0],[0,0,0],[1,1,1],[2,2,2],[2,2,2}
+
+Bazelgeuse, F, [0,1,3,2,2], null, [2,2,2,1,1], [AF, CH, RV, WW, ER], F, 1696.97, 2410.48,
+{[3,3,3],[0,0,0],[0,0,0],[0,0,0],[2,2,2],[1,1,3]}
+
 Black Diablos
+
 Deviljho
+
 Diablos
+
 Dodogama
+
 Great Girros
+
 Great Jagras
+
 Jyuratodus
+
 Kirin
+
 Kulu-Ya-Ku
+
 Kulve Taroth
+
 Kushala Daora
+
 Lavasioth
+
 Legiana
+
 Nergigante
+
 Odogaron
+
 Paolumu
+
 Pink Rathian
+
 Pukei-Pukei
+
 Radobaan
+
 Rathalos
+
 Rathian
+
 Teostra
+
 Tobi-Kadachi
+
 Tzitzi-Ya-Ku
+
 Uragaan
+
 Vaal Hazak
+
 Xeno'jiiva
+
 Zorah Magdaros
+
+{[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]}
