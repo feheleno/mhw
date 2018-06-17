@@ -2,7 +2,7 @@ CREATE TABLE mhw.monster_element_weaknesses (
   mew_id INT NOT NULL AUTO_INCREMENT,
   monster_id INT NOT NULL,
   element_id VARCHAR(1) NOT NULL,
-  wekness_level INT NOT NULL,
+  weakness_level INT NOT NULL,
   PRIMARY KEY (mew_id),
   INDEX fk_monster_element_weaknesses_1_idx (monster_id ASC),
   INDEX fk_monster_element_weaknesses_2_idx (element_id ASC),
@@ -16,3 +16,6 @@ CREATE TABLE mhw.monster_element_weaknesses (
     REFERENCES mhw.element (element_id)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+
+insert into monster_element_weaknesses (monster_id, element_id, weakness_level)
+  values (1, "F",)
