@@ -469,4 +469,4 @@ INSERT INTO mhw.material (material_name, material_rarity)
   ("Zorah Magdaros Magma","6"),
   ("Zorah Magdaros Carapace","6"),
   ("Zorah Magdaros Gem","7"),
-  ("Zorah Magdaros Ridge","6")
+  ("Zorah Magdaros Ridge","6");

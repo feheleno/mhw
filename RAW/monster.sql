@@ -44,4 +44,4 @@ INSERT INTO mhw.monster (monster_name, element, species)
   ("Uragaan", "F", "bru"),
   ("Vaal Hazak", "NE", "eld"),
   ("Xeno'jiiva", "D", "eld"),
-  ("Zorah Magdaros", "F", "eld")
+  ("Zorah Magdaros", "F", "eld");
