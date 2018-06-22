@@ -4,12 +4,12 @@ CREATE TABLE mhw.body_part (
   PRIMARY KEY (body_part_id));
 
   insert into body_part
-    values ("Ho","Horn"),
-    ("He","Head"),
+    values ("He","Head"),
+    ("Ho","Horn"),
     ("M","Mane"),
+    ("C","Chest"),
     ("FL","Front Legs"),
     ("HL","Hind Legs"),
-    ("C","Chest"),
     ("B","Back"),
-    ("W","Wings"),
-    ("T","Tail");
+    ("T","Tail"),
+    ("W","Wings");

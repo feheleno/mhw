@@ -1,26 +1,4 @@
-CREATE TABLE mhw.monster_breakable_part (
-  mbp_id INT NOT NULL AUTO_INCREMENT,
-  monster_id INT NOT NULL,
-  body_part_id VARCHAR(2) NOT NULL,
-  sever_level INT NOT NULL,
-  blunt_level INT NOT NULL,
-  ammo_level INT NOT NULL,
-  PRIMARY KEY (mbp_id),
-  INDEX fk_monster_breakable_part_1_idx (monster_id ASC),
-  INDEX fk_monster_breakable_part_2_idx (body_part_id ASC),
-  CONSTRAINT fk_mbp_monster
-    FOREIGN KEY (monster_id)
-    REFERENCES mhw.monster (monster_id)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT fk_mbp_brody_part
-    FOREIGN KEY (body_part_id)
-    REFERENCES mhw.body_part (body_part_id)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
-
-    INSERT INTO mhw.monster_breakable_part (monster_id, body_part_id, sever_level, blunt_level, ammo_level)
-      VALUES (1, "He", 3, 3, 3),
+(1, "He", 3, 3, 3),
 (1, "Ho", 0, 0, 0),
 (1, "M", 0, 0, 0),
 (1, "C", 0, 0, 0),
@@ -316,4 +294,4 @@ CREATE TABLE mhw.monster_breakable_part (
 (33, "HL", 3, 3, 3),
 (33, "B", 3, 3, 3),
 (33, "T", 3, 3, 3),
-(33, "W", 3, 3, 3);
+(33, "W", 3, 3, 3),
