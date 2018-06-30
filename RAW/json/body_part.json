@@ -1,0 +1,9 @@
+[{"body_part_id":"B", "body_part_name":"Back"},
+ {"body_part_id":"C", "body_part_name":"Chest"},
+ {"body_part_id":"FL", "body_part_name":"Front Legs"},
+ {"body_part_id":"He", "body_part_name":"Head"},
+ {"body_part_id":"HL", "body_part_name":"Hind Legs"},
+ {"body_part_id":"Ho", "body_part_name":"Horn"},
+ {"body_part_id":"M", "body_part_name":"Mane"},
+ {"body_part_id":"T", "body_part_name":"Tail"},
+ {"body_part_id":"W", "body_part_name":"Wings"}]

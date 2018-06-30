@@ -1,0 +1,5 @@
+[{"ailment_id":"bla", "ailment_name":"Blast"},
+ {"ailment_id":"par", "ailment_name":"Paralysis"},
+ {"ailment_id":"poi", "ailment_name":"Poison"},
+ {"ailment_id":"sle", "ailment_name":"Sleep"},
+ {"ailment_id":"stu", "ailment_name":"Stun"}]
