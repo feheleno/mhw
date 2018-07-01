@@ -11,7 +11,7 @@ class MEW extends React.Component {
                 <tr>
                     <Element
                         origin='mew'
-                        ele={element.element_id}
+                        elem={element.element_id}
                     />
                     <td>{element.weakness_level}</td>
                 </tr>

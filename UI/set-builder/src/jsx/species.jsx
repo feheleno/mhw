@@ -8,7 +8,14 @@ class Species extends React.Component {
                 species => species.species_id === this.props.spec
             )
             .map(
-                species => <p key={species.species_id}>Species: {species.species_name}</p>
+                species =>
+                  <React.Fragment>
+                      <tr>
+                          <td key={species.species_id}>
+                              Species: {species.species_name}
+                          </td>
+                      </tr>
+                  </React.Fragment>
             )
     }
 }
