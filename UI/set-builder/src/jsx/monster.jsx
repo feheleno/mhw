@@ -7,8 +7,13 @@ class Monster extends React.Component {
     return(
         <div key={this.props.monster_id}>
             <p>Name: {this.props.monster_name}</p>
-            <Element elem={this.props.element} />
-            <Species spec={this.props.species} />
+            <Element
+              origin='monster'
+              elem={this.props.element}
+            />
+            <Species
+              spec={this.props.species}
+            />
         </div>
     )
   }
