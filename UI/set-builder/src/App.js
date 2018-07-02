@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Monster from './jsx/monster.jsx'
 import ML from './jsx/monster_location.jsx'
+import MM from './jsx/monster_material.jsx'
 import MAW from './jsx/monster_ailment_weakness.jsx'
 import MEW from './jsx/monster_element_weakness.jsx'
 import MBP from './jsx/monster_breakable_part.jsx'
@@ -13,11 +13,11 @@ import monster from './json/monster.json'
 //import ailment from './json/ailment.json'
 //import body_part from './json/body_part.json'
 //import location from './json/location.json'
+//import material from './json/material.json'
 //import monster_ailment_weakness from './json/monster_ailment_weakness.json'
 //import monster_element_weakness from './json/monster_element_weakness.json'
 //import monster_breakable_part from './json/monster_breakable_part.json'
 //import monster_location from './json/monster_location.json'
-import material from './json/material.json'
 
 const tableStyle = {
   marginLeft: 900
@@ -71,6 +71,16 @@ class App extends Component {
       <h3>
         <table style={tableStyle}>
           <MBP
+            monster_id={monster[6].monster_id}
+          />
+        </table>
+      </h3>
+      <h2>
+        Monster Materials
+      </h2>
+      <h3>
+        <table style={tableStyle}>
+          <MM
             monster_id={monster[6].monster_id}
           />
         </table>
