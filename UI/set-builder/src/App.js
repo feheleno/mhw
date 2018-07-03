@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+
 import Monster from './jsx/monster.jsx'
 import ML from './jsx/monster_location.jsx'
 import MM from './jsx/monster_material.jsx'
@@ -8,16 +9,6 @@ import MEW from './jsx/monster_element_weakness.jsx'
 import MBP from './jsx/monster_breakable_part.jsx'
 
 import monster from './json/monster.json'
-//import species from './json/species.json'
-//import element from './json/element.json'
-//import ailment from './json/ailment.json'
-//import body_part from './json/body_part.json'
-//import location from './json/location.json'
-//import material from './json/material.json'
-//import monster_ailment_weakness from './json/monster_ailment_weakness.json'
-//import monster_element_weakness from './json/monster_element_weakness.json'
-//import monster_breakable_part from './json/monster_breakable_part.json'
-//import monster_location from './json/monster_location.json'
 
 const tableStyle = {
   marginLeft: 900
