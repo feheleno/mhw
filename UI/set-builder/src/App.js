@@ -5,8 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
 
-import MonsterBasicInfo from './jsx/monster_basic_info.jsx'
-import MonsterDetailedInfo from './jsx/monster_detailed_info.jsx'
+import MonsterBasicInfo from './jsx/basic/monster_basic_info.jsx'
+import MonsterDetailedInfo from './jsx/details/monster_detailed_info.jsx'
 import leather from './images/leather.jpg'
 
 const styles = theme => ({

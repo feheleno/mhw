@@ -13,16 +13,15 @@ import TableCell from '@material-ui/core/TableCell';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
-import MM from './monster_material.jsx'
-import MAW from './monster_ailment_weakness.jsx'
-import MEW from './monster_element_weakness.jsx'
-import MBP from './monster_breakable_part.jsx'
-import monster from '../json/monster.json'
+import MM from '../monster_material.jsx'
+import MAW from '../monster_ailment_weakness.jsx'
+import MEW from '../monster_element_weakness.jsx'
+import MBP from '../monster_breakable_part.jsx'
+import monster from '../../json/monster.json'
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    height: '100%',
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -38,7 +37,7 @@ return(
 <React.Fragment>
     <Paper className={classes.paper} style={{backgroundColor: 'rgba(96, 70, 70, 0.7)'}}>
     <Paper className={classes.paper} style={{backgroundColor: 'rgba(176, 133, 133, 0.5)'}}>
-        <Grid container spacing={8}>
+        <Grid container spacing={8} alignItems="stretch">
             <Grid item md={4}>
                 <Card>
                     <CardHeader title="Ailment Weakness" />

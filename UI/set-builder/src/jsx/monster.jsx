@@ -28,7 +28,7 @@ const { classes } = this.props;
     return (<React.Fragment>
         <CardHeader title={this.props.monster_name} />
         <CardMedia title="Contemplative Reptile">
-            <img src={diablos} style={{width:"100%"}}/>
+            <img src={diablos} style={{width:"100%", backgroundColor:'#000'}} />
         </CardMedia>
         <CardContent>
 

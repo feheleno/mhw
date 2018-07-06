@@ -5,9 +5,9 @@ import Card from '@material-ui/core/Card';
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
 
-import Monster from './monster.jsx'
-import monster from '../json/monster.json'
-import diablos from '../images/MHW-Diablos_Render_001.png'
+import Monster from '../monster.jsx'
+import monster from '../../json/monster.json'
+import diablos from '../../images/MHW-Diablos_Render_001.png'
 
 const styles = theme => ({
   root: {

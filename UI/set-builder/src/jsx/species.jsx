@@ -12,7 +12,7 @@ class Species extends React.Component {
             .map(
                 species =>
                   <React.Fragment>
-                    <Typography key={species.species_id} variant='subheading'>
+                    <Typography key={species.species_id} variant='title'>
                           Species: {species.species_name}
                     </Typography>
                   </React.Fragment>
