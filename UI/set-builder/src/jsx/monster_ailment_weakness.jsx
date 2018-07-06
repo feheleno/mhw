@@ -1,6 +1,10 @@
 import React from 'react';
-import Ailment from './ailment.jsx'
-import maws from '../json/monster_ailment_weakness.json'
+import TableRow from '@material-ui/core/TableRow';
+import TableCell from '@material-ui/core/TableCell';
+import Typography from '@material-ui/core/Typography';
+
+import Ailment from './ailment.jsx';
+import maws from '../json/monster_ailment_weakness.json';
 
 class MAW extends React.Component {
     render(){
@@ -8,8 +12,12 @@ class MAW extends React.Component {
 
         return monster_ailments.map( ailment =>
             <React.Fragment>
-                    <Ailment ail={ailment.ailment_id} />
-                    <p>{ailment.weakness_level}</p>
+                    <TableRow>
+                        <Ailment ail={ailment.ailment_id} />
+                        <TableCell>
+                            <Typography variant='subheading'>{ailment.weakness_level}</Typography>
+                        </TableCell>
+                    </TableRow>
             </React.Fragment>
         )
     }

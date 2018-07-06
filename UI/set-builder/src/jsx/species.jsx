@@ -1,4 +1,6 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
+
 import species from '../json/species.json'
 
 class Species extends React.Component {
@@ -10,9 +12,9 @@ class Species extends React.Component {
             .map(
                 species =>
                   <React.Fragment>
-                      <p key={species.species_id}>
+                    <Typography key={species.species_id} variant='subheading'>
                           Species: {species.species_name}
-                      </p>
+                    </Typography>
                   </React.Fragment>
             )
     }

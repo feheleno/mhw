@@ -1,4 +1,7 @@
 import React from 'react';
+import TableCell from '@material-ui/core/TableCell';
+import Typography from '@material-ui/core/Typography';
+
 import elements from '../json/element.json'
 
 class Element extends React.Component {
@@ -9,9 +12,9 @@ class Element extends React.Component {
                 .filter(element => element.element_id === this.props.elem)
                 .map(element =>
                   <React.Fragment>
-                      <p key={element.element_id}>
+                      <Typography key={element.element_id} variant='subheading'>
                         Element: {element.element_name}
-                      </p>
+                      </Typography>
                   </React.Fragment>)
       )
     }
@@ -20,9 +23,11 @@ class Element extends React.Component {
         elements
                 .filter(element => element.element_id === this.props.elem)
                 .map(element => <React.Fragment>
-                                  <p key={element.element_id}>
+                                <TableCell>
+                                  <Typography key={element.element_id} variant='subheading'>
                                     {element.element_name}
-                                  </p>
+                                  </Typography>
+                                </TableCell>
                                 </React.Fragment>
                     )
       )

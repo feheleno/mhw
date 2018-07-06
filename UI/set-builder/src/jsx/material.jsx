@@ -1,4 +1,7 @@
 import React from 'react';
+import TableCell from '@material-ui/core/TableCell';
+import Typography from '@material-ui/core/Typography';
+
 import materials from '../json/material.json'
 
 class Material extends React.Component {
@@ -10,10 +13,16 @@ class Material extends React.Component {
             .map(
                 material =>
                   <React.Fragment>
-                          <p key={material.material_id}>
-                              Material: {material.material_name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                              Rarity: {material.material_rarity}
-                          </p>
+                        <TableCell>
+                            <Typography key={material.material_id} variant='subheading'>
+                                {material.material_name}
+                            </Typography>
+                        </TableCell>
+                        <TableCell>
+                            <Typography key={material.material_id} variant='subheading'>
+                                {material.material_rarity}
+                            </Typography>
+                        </TableCell>
                   </React.Fragment>
             )
     }

@@ -1,4 +1,6 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
+
 import locations from '../json/location.json'
 
 class Location extends React.Component {
@@ -10,9 +12,9 @@ class Location extends React.Component {
             .map(
                 location =>
                   <React.Fragment>
-                          <p key={location.location_id}>
-                              Location: {location.location_name}
-                          </p>
+                    <Typography key={location.location_id} variant='subheading'>
+                        Location: {location.location_name}
+                    </Typography>
                   </React.Fragment>
             )
     }

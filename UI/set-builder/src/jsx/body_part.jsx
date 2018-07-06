@@ -1,4 +1,7 @@
 import React from 'react';
+import TableCell from '@material-ui/core/TableCell';
+import Typography from '@material-ui/core/Typography';
+
 import body_parts from '../json/body_part.json'
 
 class BodyPart extends React.Component {
@@ -11,9 +14,11 @@ class BodyPart extends React.Component {
                 .map(
                     body_part =>
                         <React.Fragment>
-                            <p key={body_part.body_part_id}>
-                                {body_part.body_part_name}
-                            </p>
+                            <TableCell>
+                                <Typography key={body_part.body_part_id} variant='subheading'>
+                                    {body_part.body_part_name}
+                                </Typography>
+                            </TableCell>
                         </React.Fragment>
                 )
         )

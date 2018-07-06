@@ -1,4 +1,7 @@
 import React from 'react';
+import TableCell from '@material-ui/core/TableCell';
+import Typography from '@material-ui/core/Typography';
+
 import ailments from '../json/ailment.json'
 
 class Ailment extends React.Component {
@@ -11,9 +14,11 @@ class Ailment extends React.Component {
                 .map(
                     ailment =>
                         <React.Fragment>
-                            <p key={ailment.ailment_id}>
-                                {ailment.ailment_name}
-                            </p>
+                            <TableCell>
+                                <Typography key={ailment.ailment_id} variant='subheading'>
+                                    {ailment.ailment_name}
+                                </Typography>
+                            </TableCell>
                         </React.Fragment>
                 )
         )
